@@ -237,3 +237,8 @@ finetune-kit/
 | `No transcript.csv in pX, skipping` | Each speaker dir needs a `transcript.csv` (pipe-delimited, no header) |
 | `Converted file pX_Y.wav not found` | Filenames in `transcript.csv` must match actual files; run `--convert-only` first |
 | Bench scripts: `conversion script not found` | Set `CONVERT_SCRIPT` envvar to point to your CrispASR conversion script |
+
+## Reference
+Nemotron: https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b
+Tutorials: https://github.com/nvidia-riva/tutorials/tree/main
+CrispASR: https://github.com/CrispStrobe/CrispASR
