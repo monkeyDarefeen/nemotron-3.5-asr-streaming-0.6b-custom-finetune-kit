@@ -2,6 +2,8 @@
 
 Self-contained scripts to **fine-tune** the [Nemotron 3.5 ASR Streaming 0.6B](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b) model on your own speech data, then **evaluate** and **benchmark** the result.
 
+Code has been adapted from: https://github.com/nvidia-riva/tutorials/blob/main/asr-finetune-nemotron-3.5-asr-streaming-prompt.ipynb 
+
 Everything else (NeMo, PyTorch, Lightning, librosa, etc.) comes from pip-installable libraries — nothing is bundled here.
 
 ```
